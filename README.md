@@ -2,7 +2,7 @@
 
 ## 项目技术栈
 
-umi4 + qiankun + react(非必选) + pnpm(非必选) + monorepo
+umi4（umiMax） + qiankun + react(非必选) + pnpm(非必选) + monorepo
 
 ## 项目结构
 - Build-cors. 部署跨域问题
