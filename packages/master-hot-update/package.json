@@ -1,0 +1,14 @@
+{
+  "name": "master-hot-update",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start1": "pnpm run --filter hot-master1 dev & pnpm run --filter hot-slaver1 dev",
+    "start2": "pnpm run --filter hot-master2 dev & pnpm run --filter hot-slaver2 dev"
+
+  },
+  "keywords": [],
+  "author": "clover",
+  "license": "ISC"
+}

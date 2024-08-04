@@ -1,0 +1,13 @@
+{
+  "name": "clean-cache-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build1": "pnpm run --filter master1 build & pnpm run --filter slaver1 build",
+    "build2": "pnpm run --filter master2 build & pnpm run --filter slaver2 build"
+  },
+  "keywords": [],
+  "author": "clover",
+  "license": "ISC"
+}

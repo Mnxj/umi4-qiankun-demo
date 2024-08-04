@@ -1,0 +1,188 @@
+@import '~antd/es/style/themes/default.less';
+
+.drawerTitle {
+  margin-bottom: 20px;
+  color: #3f69b8;
+  font-size: 14px;
+  line-height: 22px;
+  > span {
+    display: inline-block;
+    margin-right: 7px;
+    padding: 0 7px;
+    color: #fff;
+    font-family: Roboto;
+    background-color: #3f69b8;
+  }
+}
+.tree {
+  height: 340px;
+  max-height: 340px;
+  padding: 20px;
+  overflow-y: auto;
+  background: rgba(45, 140, 101, 0.05);
+  border-radius: 2px;
+  &::-webkit-scrollbar {
+    width: 6px;
+    background: transparent;
+  }
+  &::-webkit-scrollbar-button {
+    display: none;
+  }
+  &::-webkit-scrollbar-thumb {
+    background: #d0d5d2;
+    border-radius: 3px;
+  }
+  &::-webkit-scrollbar-track {
+    background: transparent;
+  }
+}
+
+.profile {
+  .accountBox {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 62px;
+    margin-bottom: 30px;
+    padding: 19px 32px;
+    background: url('../../assets/profile-bg.png') no-repeat center;
+    background-size: cover;
+    .account {
+      margin-right: 30px;
+      padding: 0 13px;
+      color: #fff;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      background: #3f69b8;
+      border-radius: 28px;
+      box-shadow: 2px 4px 5px rgba(10, 122, 62, 0.28), inset 0 1px 2px rgba(218, 255, 230, 0.67);
+    }
+    .name {
+      color: #151515;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+    }
+  }
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.updatePwd {
+  height: calc(100vh - 77px - 48px);
+  // > div {
+  //   width: 450px;
+  //   margin: 0 auto;
+  //   padding-top: 90px;
+  // }
+  button {
+    text-align: center;
+    // margin-top: 172px;
+    // margin-left: 42px;
+  }
+  input {
+    width: 100%;
+  }
+  .tip {
+    width: 100%;
+    width: 368px;
+    margin: 80px auto 20px;
+    padding: 6px 0;
+    color: #151515;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    background: rgba(45, 140, 101, 0.1);
+  }
+  .form {
+    width: 368px;
+    margin: 0 auto;
+    margin-top: 40px;
+  }
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  overflow: auto;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 64px;
+  padding-left: 22px;
+  background: #3f69b8;
+  > img {
+    height: 30px;
+  }
+}
+
+.content {
+  position: relative;
+  min-height: calc(100vh - 64px);
+  background: url('@/assets/login-bg.jpg') center no-repeat;
+  background-color: #f6f6f6;
+  background-size: cover;
+}
+
+.login {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 477px;
+  // backdrop-filter: blur(10px);
+  padding: 42px 74px 76px;
+  text-align: center;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 6px;
+  transform: translateY(-50%) translateX(-50%);
+  .welcome {
+    margin-bottom: 8px;
+    color: #3f69b8;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: PingFang SC;
+    line-height: 34px;
+    letter-spacing: 1.5px;
+  }
+  .loginName {
+    color: #3f69b8;
+    font-weight: normal;
+    font-size: 20px;
+  }
+  .form {
+    width: 100%;
+    margin-top: 33px;
+    text-align: left;
+  }
+  .forgetPassword {
+    margin-top: -14px;
+    margin-bottom: 67px;
+    color: #3f69b8;
+    font-size: 14px;
+    text-align: left;
+    cursor: pointer;
+  }
+  .bottom {
+    margin-top: 8px;
+    button {
+      width: 100%;
+      height: 40px;
+    }
+    .more {
+      display: flex;
+      justify-content: space-between;
+      margin-top: 10px;
+      color: #666;
+      font-size: 13px;
+      line-height: 18px;
+      letter-spacing: 0.295139px;
+    }
+  }
+}
