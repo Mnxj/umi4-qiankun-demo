@@ -5,7 +5,7 @@
 
 umi4（umiMax） + qiankun + react(非必选) + pnpm(非必选) + monorepo
 
-## 项目结构
+## 项目结构（pakcages/
 - Build-cors. 部署跨域问题
   - README.md 使用文档
 
